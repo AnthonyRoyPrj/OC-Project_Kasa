@@ -1,0 +1,12 @@
+.about-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 80px auto;
+    width: 82%;
+    gap: 30px;
+    @media (max-width: 768px) {
+        margin-top: 20px;
+        width: 100%;
+        gap: 20px;
+    }
+}

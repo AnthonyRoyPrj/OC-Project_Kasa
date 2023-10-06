@@ -1,0 +1,14 @@
+.about-banner-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/aboutImage.png");
+    background-size: cover;
+    background-position: center center;
+    @media (max-width: 768px) {
+        border-radius: 10px;
+    }
+}

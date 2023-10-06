@@ -1,0 +1,21 @@
+.thumbnails-container {
+    background: #F6F6F6;
+	border-radius: 25px;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 60px;
+    margin: 40px 0;
+	@media (max-width: 768px) {
+        margin: 20px 0;
+		padding: 0;
+		background: #FFFFFF;
+		gap: 20px;
+    }
+}
+
+.thumbnails-container::after {
+	content: "";
+	width: 340px;
+}

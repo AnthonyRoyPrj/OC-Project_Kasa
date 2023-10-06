@@ -1,33 +1,14 @@
 import kasaLogoDark from "../../assets/logo-dark.svg"
-import styled from "styled-components"
-
-const FooterWrapper = styled.footer`
-    height: 144px;
-    padding-top: 66px;
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-`
-
-const StyledText = styled.p`
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 500;
-    @media (max-width: 767px) {
-        font-size: 12px;
-    }
-`
+import "./index.css"
 
 function Footer() {
     return (
-        <FooterWrapper>
+        <footer>
             <img src={kasaLogoDark} alt="Logo Kasa" />
-            <StyledText>
+            <p className="footer-text">
                 © 2020 Kasa. All rights reserved
-            </StyledText>
-        </FooterWrapper>
+            </p>
+        </footer>
     )
 }
 

@@ -1,0 +1,36 @@
+.error-container {
+    text-align: center;
+}
+
+.error-type {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    font-size: 288px;
+    font-weight: 700;
+    @media (max-width: 767px) {
+        margin-bottom: 12px;
+        font-size: 99px;
+    }
+}
+
+.error-message {
+    font-size: 36px;
+    font-weight: 500;
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+.error-redirect {
+    display: block;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    @media (max-width: 767px) {
+        margin-top: 130px;
+        margin-bottom: 200px;
+        font-size: 14px;
+    }
+}

@@ -1,15 +1,10 @@
-import styled from "styled-components";
-
-const Container = styled.div`
-    width: 100%;
-    height: 223px;
-`
+import "./index.css"
 
 function BannerContainer(props) {
     return (
-        <Container>
+        <div className="banner-container">
             { props.children }
-        </Container>
+        </div>
     )
 }
 

@@ -1,0 +1,29 @@
+.author-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.author-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    @media (max-width: 768px) {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+    }
+}
